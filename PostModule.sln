@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostModule", "PostModule.csproj", "{ED9C413C-56E2-48A6-A63C-1282B39517BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostModule.Domain", "PostModule.Domain.csproj", "{ED9C413C-56E2-48A6-A63C-1282B39517BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostModule.Application.Contract", "..\PostModule.Application.Contract\PostModule.Application.Contract.csproj", "{94EE9976-C46B-4644-93DA-008FA6FF29FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostModule.Application.Service", "..\PostModule.Application.Service\PostModule.Application.Service.csproj", "{7ADF2777-F371-4032-AC29-7043813F8CC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostModule.Infrastructure", "..\PostModule.Infrastructure1\PostModule.Infrastructure.csproj", "{343E33C0-1C21-4094-98E3-823B4FE79E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{ED9C413C-56E2-48A6-A63C-1282B39517BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED9C413C-56E2-48A6-A63C-1282B39517BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED9C413C-56E2-48A6-A63C-1282B39517BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EE9976-C46B-4644-93DA-008FA6FF29FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EE9976-C46B-4644-93DA-008FA6FF29FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EE9976-C46B-4644-93DA-008FA6FF29FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EE9976-C46B-4644-93DA-008FA6FF29FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADF2777-F371-4032-AC29-7043813F8CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADF2777-F371-4032-AC29-7043813F8CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADF2777-F371-4032-AC29-7043813F8CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADF2777-F371-4032-AC29-7043813F8CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343E33C0-1C21-4094-98E3-823B4FE79E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343E33C0-1C21-4094-98E3-823B4FE79E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343E33C0-1C21-4094-98E3-823B4FE79E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343E33C0-1C21-4094-98E3-823B4FE79E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

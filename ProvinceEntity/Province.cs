@@ -1,12 +1,12 @@
-﻿using PostModule.Base;
-using PostModule.CityEntity;
+﻿using PostModule.Domain.Base;
+using PostModule.Domain.CityEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PostModule.StateEntity
+namespace PostModule.Domain.ProvinceEntity
 {
    public class Province :BaseEntity<int>
     {

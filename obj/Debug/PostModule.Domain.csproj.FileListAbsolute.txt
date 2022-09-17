@@ -1,0 +1,6 @@
+E:\Apply\job offer\learning\DDD\Onion\PostModule\bin\Debug\PostModule.dll
+E:\Apply\job offer\learning\DDD\Onion\PostModule\bin\Debug\PostModule.pdb
+E:\Apply\job offer\learning\DDD\Onion\PostModule\obj\Debug\PostModule.Domain.csproj.CoreCompileInputs.cache
+E:\Apply\job offer\learning\DDD\Onion\PostModule\obj\Debug\PostModule.dll
+E:\Apply\job offer\learning\DDD\Onion\PostModule\obj\Debug\PostModule.pdb
+E:\Apply\job offer\learning\DDD\Onion\PostModule\obj\Debug\PostModule.Domain.csprojAssemblyReference.cache
