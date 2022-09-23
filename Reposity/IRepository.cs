@@ -10,14 +10,15 @@ namespace PostModule.Domain.Reposity
     public interface IRepository<TKEY, T> where T : class
     {
         IEnumerable<T> GetAll();
-        IEnumerable<T> GetAll(Expression<Func<T, bool>> expression);
+
+        IEnumerable<T> GetAllBy(Expression<Func<T, IEnumerable<T>>> expression);
 
         T GetById(TKEY id);
 
         bool Create(T model);
 
         bool Delete(T model);
-        bool IsExist(Expression<Func<T, bool>> expression);
+        bool ExistBy(Expression<Func<T, bool>> expression);
         bool Save();
     }
 }
